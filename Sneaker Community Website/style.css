@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:  url("https://images.unsplash.com/photo-1506544777-64cfbe1142df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hvZXMlMjBqb3JkYW5zfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+}
+body background-imgage{
+    width: 100px;
+}
+
+.left{
+    display: flex;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    
+    
+}
+.left img{
+    width: 150px;
+    height: 100px;
+}
+
+.mid{
+    display:flex;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 35px;
+    width: 150px;
+    
+}
+.navbar{
+    display: flex;
+   
+    font-size: 18px;
+    
+}
+.navbar li{
+display: inline-block;
+padding: 0 25px;
+font-weight: bolder;
+
+}
+.navbar li a {
+    text-decoration:none;
+    cursor: pointer;
+    color: black;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: rgb(51, 56, 56);
+}
+#right-btn{
+    margin: 0px 9px;
+    padding: 3px 4px;
+    cursor: pointer;
+    
+}
+#right-btn:hover{
+color: rgb(57, 55, 55);
+}
+.container{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17,25,40,0,0.25);
+    border: 2px solid rgb(134, 140, 134);
+    margin: 2px 170px;
+    padding: 75px;
+    width: 33%;
+    font-family: 'Bungee Spice', cursive;
+    border-radius: 10px;
+}
+.form-group input{
+   text-align: center;
+   display: block;
+   width: 398px;
+   padding: 13px;
+   border: 2px solid black;
+   margin: 10px auto;
+   border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+ .btn{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
