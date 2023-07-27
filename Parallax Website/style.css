@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(https://wallpapercave.com/wp/wp6078245.jpg);
+   
+    min-height: 100%;
+    
+}
+.pimg2{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/10/20/57112/jordan-1-14.jpg);
+    min-height: 800px;
+}
+.pimg3{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/10/20/57112/jordan-1-16-920x518.jpg);
+    min-height: 800px;
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+.textBg{
+    background: #313534;
+    color: white;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
